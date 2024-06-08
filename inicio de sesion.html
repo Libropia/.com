@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Iniciar Sesion</title><link rel="icon" href="logo.png">
+  <link rel="stylesheet" href="styles_inicio_de_sesion.css">
+</head>
+<body>
+  <div class="container">
+ <img id="imagen" src="logo.png" alt="">
+
+ 
+<img id="img" src="logo.png" alt="">
+
+    <form action="#" method="POST">
+
+      <div class="form-group">
+        <label for="email">Correo electr&oacute;nico:</label>
+        <input type="email" id="email" name="email" required placeholder="correo electr&oacute;nico">
+      </div> 
+
+    <div>
+        <div class="password-toggle">
+          <label for="password">Contraseña <img id="eyeIcon" src="abrir.png" alt="Mostrar" onclick="togglePasswordVisibility()"></label>
+            <input type="password" id="password" placeholder="Contraseña" >
+           
+        </div>
+        <input class="enviar" type="submit" value="Iniciar sesi&oacute;n" >
+      <a href="registro.html">¿No tienes una cuenta? Registrarse</a>
+    </form>
+  <script src="script.js"></script>
+</body>
+</html>

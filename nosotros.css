@@ -1,0 +1,339 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+background-color: rgb(0, 0, 0);
+
+}
+
+.heading{
+width: 90%;
+text-align: center;
+margin: 20px auto;
+}
+ 
+.heading h1{
+     font-size: 50px;
+     color: pink;
+}
+
+.container{
+    width: 80%;
+    margin:  0 auto;
+    padding: 10px 20px;
+}
+
+.about{
+    display: flex;
+    align-items: center;
+}
+
+.about-image{
+    flex: 1;
+}
+.about-image video{
+    max-width: 80%;
+    border: solid 2px black;
+    box-shadow: 0 0 15px pink;
+    
+ }
+
+
+ .about-content{
+    flex: 1;
+
+ }
+
+  .about-content  h2{
+    font-size: 23px;
+    margin-bottom: 15px;
+    color: pink;  }
+
+    .about-content p{
+        font-size: 18px;
+        line-height: 1.5;
+        color: white;        text-align: justify;
+    }
+
+.da img{
+    margin-right: -20px;
+    margin-left: 15%;
+}
+.da{
+margin-left: 5%;
+width: 90%;
+height: 500px;
+align-items: center;
+justify-content: center;
+display: flex;
+color: rgb(255, 255, 255);
+
+margin-top: 20px;
+
+    }
+
+    .mision{
+    display: flex;
+flex-direction: column;    
+margin-left: 5%;
+width: 40%;
+
+    }
+.valores{
+    width: 90%;
+}
+.mision, .vision, .valores {
+    border-radius: 10px;
+transition: 1s all;
+height: 500px;
+box-shadow: 0 0 15px pink;
+color: rgb(255, 255, 255);
+}
+
+.personajes div:hover, .personajesa div:hover{
+    transform: scale(1.1);
+}
+
+.mision:hover, .vision:hover, .valores:hover{
+ transform: scale(1.1);
+    border: 1px solid;
+}
+.personajes div, .personajesa div{
+    height: 900px;
+    width: 60%;
+    margin-top: 75px;
+box-shadow: 0 0 15px pink;
+border-radius: 60px;
+margin-left: 20%;
+transition:1s all;
+}
+
+.da h3 {
+ font-size: 15px;
+text-align: justify;
+
+}
+
+  .da p{
+        font-size: 15px;
+        text-align: justify;
+        width: 80%;
+        margin-left: 5%;
+        margin-top: 5px;
+        color: rgb(255, 255, 255);
+
+    }
+
+   .da h2{
+          display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    color:rgb(255, 192, 203);
+
+    }
+
+
+
+    .vision{
+     margin-left: 5%;
+     width: 40%;
+display: flex;
+flex-direction: column;
+    }
+    
+    .valores{
+margin-left: 5%;
+margin-right: 5%;
+text-align: justify;
+width: 40%;
+display: flex;
+flex-direction: column;
+}
+
+      .ra{
+align-items: center;
+justify-content: center;
+display: flex;
+flex-direction: column;
+margin-top: 100px;
+
+}
+
+.ra img{
+    max-width: 80%;
+    margin-top: 10px;
+}
+.ra h2{
+font-size: 200%;
+color: pink;
+  margin-top: 50px;
+}
+
+
+.sucursales{
+    text-align: justify;
+justify-content: center;
+display: flex;
+margin-top: 30px;
+
+}
+p{    color: rgb(255, 255, 255);
+
+}
+li{
+        color: rgb(255, 255, 255);
+
+}
+
+
+.sucursales p {
+margin-top: 20px;
+color: white;
+width: 100%;
+}
+
+.texto{
+    width: 70%;
+}
+
+.da img{
+    max-width: 80%;
+
+}
+
+.personajes img{
+   width: 30%;
+   margin-top: 10px;
+       border-radius: 100%;
+
+    }
+.personajesa img{
+       width: 30%;
+       border-radius: 100%;
+       margin-top: 10px;
+}
+.personajesa{
+display: flex;
+flex-direction: column;
+text-align: center;
+width: 50%;
+
+}
+.personajes h3, .personajesa h3{
+    color: pink;
+}
+.personajes{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50%; 
+}
+
+.miembros{
+    display: flex;
+    height: 1100px;
+}
+.coo h3{
+    margin-top: 13px;
+    color: pink;
+    font-size: 13px;
+}
+.miembros p ,
+h5{
+    color: white;
+    text-align: justify;
+    width: 50%;
+    margin-left: 26%;
+}
+
+
+
+#p{
+    text-align: center;
+    color: white;
+}
+@media
+(max-width:1000px){
+
+    body{
+        justify-content: center;
+        text-align: justify;
+        align-items: center;
+        display: flex;
+       
+    }
+.container{
+    width: 80%;
+}
+.texto{
+        width: 100%;
+}
+.about-content{
+    margin-top: 20px;
+}
+.about-content p{
+    width: 100%;
+}
+.heading {
+display: flex;
+flex-direction: column;
+}
+.about{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+
+}
+.about-image{
+margin-left: 20%;
+}
+
+.da img {
+    width: 50%;
+    text-align: justify ;
+
+}
+
+
+
+.da{
+    margin-top: 500px;
+        display: flex;
+flex-direction: column;
+width: 100%;
+justify-content: center;
+
+}
+
+.mision{
+    width: 100%;
+margin-right: 50px;
+justify-content: center;}
+.vision{
+    width: 100%;
+    margin-right: 50px;
+justify-content: center;
+}.valores{
+    width: 100%;
+    margin-right: 50px;
+justify-content: center;
+}
+.ra{
+    margin-top: 350px;
+}
+.sucursales{
+    margin-top: 90px;
+}
+
+.ra img {
+    max-width: 100%;
+}
+.ra h2 {
+    font-size: 100%;
+}
+
+}
